@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Register</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+    <img src="image/Header.jpg" style="width:100%">
+</header>
+    <nav1>
+        <ul id="nav1">
+            <li id="home"><a href="index.html"> หน้าแรก </a></li>
+            <li><a href="schedule.html"> รอบการรับสมัคร </a></li>
+            <li><a href="course.html"> แผนการเรียน </a></li>
+            <li><a href="register.html"> สมัครเข้าศึกษาต่อ </a></li>
+            <li><a href="contact.html"> ติดต่อภาควิชา </a></li>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                    />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Search </button>
+                </form>
+        </ul>
+    </nav1>
+
+    <section>
+    <nav>
+    <ul>
+        <li><a href="https://www.fitm.kmutnb.ac.th/IT.html"> ภาควิชา IT </a></li>
+        <li><a href="https://www.fitm.kmutnb.ac.th/IM.html"> ภาควิชา IM </a></li>
+        <li><a href="https://www.fitm.kmutnb.ac.th/CDM.html"> ภาควิชา CDM </a></li>
+        <li><a href="https://www.fitm.kmutnb.ac.th/AEI.html"> AEI </a></li>
+        <li><a href="https://www.facebook.com/FITM.KMUTNB"> FITM PAGE </a></li>
+        <li><a href="https://www.admission.kmutnb.ac.th/"> รับสมัครนักศึกษาใหม่ </a></li>
+        <li><a href="https://www.facebook.com/students.pc"> กิจการนักศึกษา </a></li>
+        <li><a href="https://library.kmutnb.ac.th/th/?xid=np63onb01i2b39krpg6sh76gsh9v7sa2"> สำนักหอสมุดกลาง </a></li>
+        <li><a href="https://sites.google.com/a/fitm.kmutnb.ac.th/km/"> การจัดการความรู้ </a></li>
+        <li><a href="https://alumni.kmutnb.ac.th/"> ศิษย์เก่าเทคโน </a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <table class="table">
+        <form>
+            <tr>
+                <td>ชื่อ :</td>
+                <td><input type="text" min="1"></td>
+            </tr>
+            <tr>
+                <td>นามสกุล :</td>
+                <td><input type="text" min="1"></td>
+            </tr>
+            <tr>
+                <td>วันเกิด :</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>รายได้ ต่อเดือน :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>สีที่ชอบ :</td>
+                <td><input type="color" style=width:100px; required></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Facebook :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>ที่อยู่ :</td>
+                <td><input type="text" style=width:100%; ></td>
+            </tr>
+            <tr>
+                <td>เพศ :</td>
+                    <td><input type="radio" name="gender" value="male" > ชาย
+                    <td><input type="radio" name="gender" value="female" > หญิง 
+            </tr>
+            <tr>
+                <td>วุฒิการศึกษา :</td>
+                    <td><input type="radio" name="education" value="highschool" > ม.6
+                    <td><input type="radio" name="education" value="Vocation" > ปวช.
+            </tr>
+            <tr>
+                <td for="cars">สาขา :</td>
+                <td>
+                    <select name="cars" id="cars">
+                        <optgroup label="ม.6">
+                            <option value="vitkanit">วิทย์ คณิต</option>
+                            <option value="sinpasa">ศิลป์ ภาษา</option>
+                            <option value="sinkumnoy">ศิลป์ คำนวณ</option>
+                        </optgroup>
+                        <optgroup label="สาขาช่างอุตสหกรรม">
+                            <option value="mercedes">ช่างยนต์</option>
+                            <option value="audi">ช่างกล</option>
+                            <option value="audi">ช่างเชื่อม</option>
+                        </optgroup>
+                        <optgroup label="สาขาช่างโยธา">
+                            <option value="mercedes">ช่างก่อสร้าง</option>
+                            <option value="audi">ช่าโยธา</option>
+                            <option value="audi">ช่างสำรวจ</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td for="myimage">รูปถ่ายของคุณ :</td>
+                <td><input type="file" id="myimage" name="myimage"><td>
+            </tr>
+            <tr>
+                <td><button class="button button1"> ยืนยัน </button></td>
+                <td><button class="button button2"> ยกเลิก </button></td>
+            </tr>
+        </form>
+    </table>  
+  </article>
+</section>
+
+<footer>
+    <img src="image/Footer.jpg" style="width:100%">
+</footer>
+
+</body>
+</html>
+
